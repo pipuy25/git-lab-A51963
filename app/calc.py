@@ -3,3 +3,8 @@
 
 def sub(a, b):
     return a - b
+
+def div(a, b):
+    if b == 0:
+        raise ValueError("Khong chia duoc")
+    return a / b
