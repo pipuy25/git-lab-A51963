@@ -6,5 +6,5 @@ def sub(a, b):
 
 def div(a, b):
     if b == 0:
-        raise ValueError("Khong chia duoc")
+        raise ValueError("Loi: chia cho 0")
     return a / b
