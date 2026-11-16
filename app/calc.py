@@ -6,5 +6,5 @@ def sub(a, b):
 
 def div(a, b):
     if b == 0:
-        raise ValueError("Loi: chia cho 0")
+        raise ValueError("Loi: chia cho 0 [ZeroDivision (E001)]")
     return a / b
